@@ -1,0 +1,22 @@
+header nav ul li {
+    text-align: right;
+}
+
+
+.text-right {
+    text-align: right;
+}
+
+
+background {
+    background-color: darkred;
+}
+
+
+main + h2 {
+    color: blue;
+}
+
+:root {
+    --main-bg-color: darkred;
+}
