@@ -1,22 +1,73 @@
-header nav ul li {
+* {
+    margin:0;
+    padding: 20px;;  
+  }
+  
+  /* Element Selectors */
+  body {
+    position: relative;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    font-size: 20px;
+    background-color: #a76714;
+    color: #4F4846;
+  }
+  
+  h1,
+  h2 {
+    margin: 0px;
+  }
+  
+  main {
+    padding: 300px 0;
+  }
+  
+  li {
+    display: inline;
+    padding: 0px 20px;
+    text-decoration: none;
+  }
+  
+  
+  header,
+  footer {
+    height: 100px;
+    width: 100%;
+    line-height: 100px;
+    background-color: #dc8310;
+  }
+  
+  header {
+    position: absolute;
+    border-bottom: 10px solid #5d330e;
+  }
+  
+  footer {
+    position: absolute;
+    margin-top: 0;
+    bottom: 0;
+    border-bottom: 10px solid #5d330e ;
+    color: #FDF8F5;    
+  }
+  
+  figure {
+    margin-bottom: -335px;
+  }
+  
+  img {
+    display: inline;
+    margin: 20px auto;
+  }
+  
+  section {
+    margin-bottom: 75;
+    padding: 20px 10px 40px 10px;
+    border-top: 15px solid #dc8310;
+    background-color:  #a76714;
+  }
+  
+    
+  
+  .text-right {
     text-align: right;
-}
-
-
-.text-right {
-    text-align: right;
-}
-
-
-background {
-    background-color: darkred;
-}
-
-
-main + h2 {
-    color: blue;
-}
-
-:root {
-    --main-bg-color: darkred;
-}
+    line-height: 0px;
+  }
