@@ -1,6 +1,5 @@
 * {
-    margin:0;
-    padding: 20px;;  
+    margin:0;  
   }
   
   /* Element Selectors */
@@ -9,12 +8,12 @@
     font-family: "Goudy Bookletter 1911", sans-serif;
     font-size: 20px;
     background-color: #a76714;
-    color: #4F4846;
+    color: #201f1f;
   }
   
   h1,
   h2 {
-    margin: 0px;
+    margin: auto;
   }
   
   main {
@@ -37,37 +36,70 @@
   }
   
   header {
-    position: absolute;
+    display: flex;
     border-bottom: 10px solid #5d330e;
   }
   
   footer {
-    position: absolute;
+    display: flex;
     margin-top: 0;
     bottom: 0;
     border-bottom: 10px solid #5d330e ;
     color: #FDF8F5;    
   }
   
-  figure {
-    margin-bottom: -335px;
-  }
   
-  img {
+   .image-container {
     display: inline;
     margin: 20px auto;
+    width: 300px;
+    height: 200px;
+   }
+
+  .image-container:hover::before {
+    background-image: url("Screen-Shot.png");
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+    background-color: #5d330e;
+
   }
   
   section {
     margin-bottom: 75;
     padding: 20px 10px 40px 10px;
     border-top: 15px solid #dc8310;
-    background-color:  #a76714;
   }
   
     
   
   .text-right {
-    text-align: right;
+    text-align: center;
+    margin: auto;
     line-height: 0px;
   }
+
+  .my-photo {
+    height: 300px;
+  }
+
+  .screen-shot-one, 
+  .screen-shot-two {
+    height: 300px;
+    display: flex;
+  }
+
+  
+
+  main,
+  .project-section, 
+  .contact-section{
+    display: flex;
+  }
+
+  /* #first-project {
+    background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg");
+    height: 300px;
+  } */
