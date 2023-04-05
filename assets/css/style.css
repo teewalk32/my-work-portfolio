@@ -10,16 +10,22 @@
     background-color: #a76714;
     color: #201f1f;
   }
-  
+  /* colors and margin */
   h1,
-  h2 {
-    margin: auto;
+  h2,
+  h3 {
+    margin-left: left;
+    color: #201f1f;
   }
-  
+
+
+  /* main section size */
   main {
     padding: 300px 0;
   }
-  
+
+
+  /* list display */
   li {
     display: inline;
     padding: 0px 20px;
@@ -27,12 +33,14 @@
   }
   
   
+  /* header and foot section */
   header,
   footer {
     height: 100px;
     width: 100%;
     line-height: 100px;
     background-color: #dc8310;
+    color: #201f1f;
   }
   
   header {
@@ -48,7 +56,7 @@
     color: #FDF8F5;    
   }
   
-  
+  /* image details */
    .image-container {
     display: inline;
     margin: 20px auto;
@@ -67,6 +75,8 @@
 
   }
   
+
+  /* section size and color */
   section {
     margin-bottom: 75;
     padding: 20px 10px 40px 10px;
@@ -81,25 +91,49 @@
     line-height: 0px;
   }
 
+
+/* picture sizes */
   .my-photo {
     height: 300px;
   }
 
-  .screen-shot-one, 
+  .screen-shot-one  {
+    height: 400px;
+    width: 250;
+    display: auto;
+  }
+
+
   .screen-shot-two {
-    height: 300px;
-    display: flex;
+    height: 250px;
+    display: auto;
   }
 
   
-
+/* display of sections */
   main,
   .project-section, 
   .contact-section{
     display: flex;
   }
 
-  /* #first-project {
-    background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg");
-    height: 300px;
-  } */
+  /* Tablets - header */
+@media screen and (max-width: 992px) {
+  header,
+  footer,
+  nav
+}
+
+/* Large smartphones  */
+@media screen and (max-width: 768px) {
+  header,
+  footer,
+  nav
+}
+
+/* Small smartphones  */
+@media screen and (max-width: 576px) {
+ header,
+ footer,
+ nav
+}
