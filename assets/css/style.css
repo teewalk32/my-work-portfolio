@@ -106,7 +106,14 @@
 
   .screen-shot-two {
     height: 250px;
-    display: auto;
+    width: auto;
+    display: flex;
+  }
+
+  .project-one {
+    height: 250px;
+    width: auto;
+    display: flex;
   }
 
   
